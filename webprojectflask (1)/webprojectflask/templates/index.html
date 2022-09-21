@@ -1,0 +1,37 @@
+<table class="table table-striped">
+    <tr>
+        <th>sno</th>
+        <th>relation</th>
+        <th>first_name</th>
+        <th>last_name</th>
+        <th>age</th>
+        <th>identity_mark</th>
+        <th>date_lost</th>
+        <th>address</th>
+        <th>pincode</th>
+        <th>city</th>
+        <th>phone_num</th>
+        <th>email</th>
+
+
+    </tr>
+    {% for row in lost %}
+    <tr>
+        <td>{{row.0}}</td>
+        <td>{{row.1}}</td>
+        <td>{{row.2}}</td>
+        <td>{{row.3}}</td>
+        <td>{{row.4}}</td>
+        <td>{{row.5}}</td>
+        <td>{{row.6}}</td>
+        <td>{{row.7}}</td>
+        <td>{{row.8}}</td>
+        <td>{{row.9}}</td>
+        <td>{{row.10}}</td>
+        <td>{{row.11}}</td>
+        <td>{{row.12}}</td>
+        <td>
+    {% endfor %}
+
+
+  </table>
